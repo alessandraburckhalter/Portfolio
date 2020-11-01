@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bower_components/wow/css/libs/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <title>Alessandra Burckhalter</title>
 </head>
 <body>
@@ -12,12 +15,12 @@
     <div class="header container">
       <div class="nav-bar">
         <div class="brand">
-          <img src="/images/logo-removebg-preview.png" alt="">
+          <a href="#top"><img src="/images/logo-removebg-preview.png" alt=""></a>
         </div>
         <div class="nav-list">
           <div class="hamburger"><div class="bar"></div></div>
           <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#top" data-after="Home">Home</a></li>
             <li><a href="#projects" data-after="Projects">Projects</a></li>
             <li><a href="#about" data-after="About">About</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
@@ -29,14 +32,23 @@
   <!-- End Header -->
 
     <!-- first section -->
-    <section id="hero">
-        <div class="hero container">
+    <section id="top">
+        <div class="top container">
             <div>
-                <h1>Hello, <span></span></h1>
-                <h1>My name is <span></span></h1>
-                <h1>Alessandra <span></span></h1>
+                <h1>Hi, <span></span></h1>
+                <h1>I'm Alessandra <span></span></h1>
+                <h1>Front-end Developer <span></span></h1>
                 <a href="#" type="button" class="cta">Portfolio</a>
             </div>
+
+            <div class="top-image">
+                <img src="/images/home.png" alt="" srcset="">
+            </div>
+            <!-- down arrow-------------->
+	        <!-- <div class="black-line" >
+
+            </div> -->
+
         </div>
     </section>
     <!-- end of first section -->
@@ -50,9 +62,9 @@
         </div>
       </div>
       <div class="col-right">
-        <h1 class="section-title">About <span>me</span></h1>
-        <h2>Front-end Developer</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni! Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt reprehenderit libero enim!</p>
+        <h1 class="section-title wow slideInLeft" data-wow-duration="0.5s" data-wow-delay="0.5s">About <span>me</span></h1>
+        <h2 class="wow slideInRight" data-wow-offset="15"  data-wow-iteration="1">Front-end Developer</h2>
+        <p class="animate__animated animate__bounceInUp">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni! Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt reprehenderit libero enim!</p>
         <a href="#" class="cta">Download Resume</a>
       </div>
     </div>
@@ -101,5 +113,15 @@
         </div>
     </section>
     <!-- projects section ends -->
+
+    <!-- technology section starts -->
+
+    <!-- technology section ends -->
+
+    <!-- contact section starts -->
+    
+    <!-- contact section ends -->
+    <script src="/bower_components/wow/dist/wow.min.js"></script>
+    <script src="./app.js"></script>
 </body>
 </html>
