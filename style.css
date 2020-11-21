@@ -967,13 +967,13 @@ transform: scale(0);
 
 	#top h1:nth-child(1) {
 		font-size: 2.9rem;
-		width: 4em;
+		width: 5em;
 		
 	}
 	
 	#top h1:nth-child(2) {
 		font-size: 1.5rem;
-		width: 12em;
+		width: 14em;
 	}
 	
 	#top h1:nth-child(3) {
