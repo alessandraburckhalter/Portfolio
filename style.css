@@ -243,8 +243,6 @@ p {
 
 #top h1 {
     display: block;
-    width: fit-content;
-    font-size: 1rem;
     position: relative;
 	color: gray;
 	white-space: nowrap;
@@ -974,7 +972,7 @@ transform: scale(0);
 	}
 	
 	#top h1:nth-child(2) {
-		font-size: 2rem;
+		font-size: 1.5rem;
 		width: 12em;
 	}
 	
