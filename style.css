@@ -967,18 +967,18 @@ transform: scale(0);
 
 	#top h1:nth-child(1) {
 		font-size: 2.9rem;
-		width: 5em;
+		width: 4.8em;
 		
 	}
 	
 	#top h1:nth-child(2) {
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 		width: 14em;
 	}
 	
 	#top h1:nth-child(3) {
 		font-size: 2.8rem;
-		width: 9.3em;
+		width: 12em;
 	}
 
 	#top .cta {
